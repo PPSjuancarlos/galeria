@@ -5,11 +5,11 @@ on:
   push:
     paths:
       - '**.py'
-      - '.github/workflows/ci_cd_todo.yml'
+      - '.github/workflows/CI_CD.yml'
   pull_request:
     paths:
       - '**.py'
-      - '.github/workflows/ci_cd_todo.yml'
+      - '.github/workflows/CI_CD.yml'
 
 jobs:
   flake8-lint:
